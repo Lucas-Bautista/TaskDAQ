@@ -1,0 +1,12 @@
+.chart-container {
+    width: 800px; // Adjust based on your layout needs
+    height: 400px;
+    overflow-x: auto; // Enables horizontal scrolling
+    overflow-y: hidden; // Prevents vertical scrolling
+    white-space: nowrap; // Ensures that the chart stays on one line
+}
+
+.chart-wrapper {
+    width: 2000px; // Set this width based on the amount of data to ensure the chart is scrollable
+    height: 100%;
+}

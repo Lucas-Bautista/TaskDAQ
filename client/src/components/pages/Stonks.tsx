@@ -1,11 +1,10 @@
 import React from "react"
-import "./Home.scss"
 import Graph from "../modules/Graph"
-const Home = ()=>{
+const Stonks = ()=>{
     return (
         <div>
-            Hello
+            <Graph/>
         </div>
     )
 }
-export default Home
+export default Stonks
