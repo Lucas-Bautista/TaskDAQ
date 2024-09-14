@@ -1,0 +1,39 @@
+$primary-color: #EEDF7A;
+$secondary-color: #D8A25E;
+.navbar {
+    background-color: $primary-color;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    position: fixed;
+    width: 100%;
+    left:0;
+    top: 0;
+    // box-shadow: 16px 0px rgba(168, 32, 32, 0.2); /* Adding shadow */
+}
+
+
+.navbar-item {
+    color: $secondary-color;
+    padding: 0.5rem 1.5rem;
+    transition: background-color 0.3s color 0.3s;
+    margin: 0.5rem;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.navbar-item:hover {
+    color:white; /* Color when hovered */
+}
+
+.icon-container {
+    padding: 0.5rem 1rem;
+    color: $secondary-color;
+    display: flex;
+    align-content: center;
+    font-weight: 900;
+    font-size: 32px;
+    flex-grow: 2;
+}
+

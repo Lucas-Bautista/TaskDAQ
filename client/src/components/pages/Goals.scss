@@ -1,0 +1,11 @@
+$primary-color: #EEDF7A;
+$secondary-color: #D8A25E;
+
+.main-container{
+    background-color: $secondary-color
+}
+
+.top-container{
+    display: flex;
+    flex-direction: column;
+}
